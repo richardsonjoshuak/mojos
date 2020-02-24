@@ -118,15 +118,15 @@ article {
    background: url("images/pizzabg2.jpeg");
 }
 article div {
-   max-width: 100%;
+   max-width: 800px;
    margin: 0 auto;
    padding: 0 3% 1em;
    background-color: ivory;
 }
 
 .container {
-	min-width: 100%;
-	max-width: 100%;
+	min-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 3% 1em;
 	background-color: ivory;
