@@ -32,6 +32,38 @@ table {
 
 /* body and page container */
 body {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+header, footer {
+	width: 100%;
+}
+
+aside {
+	-webkit-flex: 1 1 120px;
+	flex: 1 1 120px;
+}
+
+section#main {
+	-webkit-flex: 3 1 361px;
+	flex: 3 1 361px;
+}
+
+section#topics {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+section#topics article {
+	-webkit-flex: 1 1 200px;
+	flex: 1 1 200px;
+}
+body {
    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
